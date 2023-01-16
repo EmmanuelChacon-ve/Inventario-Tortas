@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tortas Kady</title>
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Box icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="shortcut icon" href="../img/LOGOv.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/user/styles.css">
+    <link rel="stylesheet" href="../css/user/catalogo.css" />
+  </head>
+  <body>
+    <!--Navegation-->
+    <header>
+      <div class="container">
+          <nav class="nav">
+              <div class="menu-toggle" id="menu-toggle">
+                  <i class="fas fa-bars"></i>
+                  <i class="fas fa-times"></i>
+              </div>
+              <a href="inicio.html" class="logo">TORTAS KADY</a>
+              <ul class="nav-list">
+                  <li class="nav-item">
+                      <a href="./inicio.html" class="nav-link ">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="./catalogo.html" class="nav-link active">CATALOGO</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="./info.html" class="nav-link ">SOBRE KADY</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="promo.html" class="nav-link ">Promociones</a>
+                  </li>
+                  </li>
+                  <li class="nav-item">
+                      <a href="form.php" class="nav-link ">Orden</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="../../controlador/logout.php" class="nav-link ">Cerrar Sesión</a>
+                </li>
+                
+                  <li class="nav-item">
+                    <div class="carrito__icon">
+                    <i class="bx bx-cart"></i>
+                    
+                    <span class="item__total">0</span>
+                  </div>
+              </ul>
+
+          </nav>
+      </div>
+  </header>
+ 
+ 
+
+		<main class="container detalles" id="detalles">
+
+
+		 <!--Carrito-->
+    
+		 <section class="carrito__overlay">
+      <div class="carrito">
+        <span class="close__carrito">
+          <i class="bx bx-x"></i>
+        </span>
+        <h1>Su Carrito</h1>
+
+        <div class="carrito__center">
+
+
+        </div>
+
+        <div class="carrito__footer">
+            <h3>Total: $ <span class="carrito__total">0</span></h3>
+            <button class="clear__carrito btn">remover carrito</button>
+        </div>
+      </div>
+    </section>
+    
+		<script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+    <script src="../js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./Vista/css/logins.css">
+        <link rel="icon" href="./Vista/img/LOGOv.png" type="image/x-icon">
+        <script defer src="./Vista/js/pruebalogins.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <title>Tortas Kady</title>
+    </head>
+</head>
+<body>
+    <div class="container">
+        <div class="registro">
+            <div class="titulo">
+                <img src="./vista/img/LOGOv.png" alt="logo de la empresa" >
+            </div>
+          
+
+        </div>
+        <div class="register"> 
+            <div class="decoracion-register"></div>
+            <div class="form-container">
+                <div class="alert">
+                    <div class="mensaje error"></div>
+                </div>
+
+
+    
+        <form action="../../Controlador/chef/login.php" method="POST">
+            <div class = "form">
+                <div class="section">
+                    <h1>Ingresar</h1>
+                  </div>
+            <div class="form__container">
+                <input type="text" name="username" placeholder=" "  class="form__input"> 
+                <label for="username" class="form__label">Usuario </label>
+                
+              </div>
+            
+            
+           
+              <div class="form__container">
+                <input type="password" name="password" placeholder=" "  class="form__input">
+                <label for="pass" class="form__label">Contraseña </label>
+              </div>
+           
+            
+            
+            
+            <input type="submit" value="Ingresar" class="submit">
+            <a href="./login.html" ><button type="button" class="submit">Registrarse</button></a>
+            
+        </form>
+    </div>
+    <div class="olvid">
+    <a href="./olvido.php" class="olvido">Olvide Contraseña</a>
+    </div>
+</div>
+    
+</body>
+</html>

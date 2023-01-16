@@ -1,0 +1,200 @@
+/*header*/
+:root{
+    --main--color: #98269a;
+    --color--texto: #4f1450;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+ 
+}
+/* 
+li,a,span,select{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 90%;
+    padding: 10px;
+    margin-left: 100px;
+    
+
+}
+
+.logo img{
+    height: 130px;
+    cursor: pointer;
+    transition: all 1s ease 0s;
+}
+
+.logo img:active{
+    height: 150px;
+    transform: translateX(-10px)
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+ transition: all 0.5s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: var(--color--texto);
+} */
+
+/* cerrando header */
+/* container */
+.containe {
+    margin: 0px auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: var(--color--texto);
+    width: 40%;
+    padding-bottom: 10px;
+    color: white;
+}
+.containe h1{
+    padding: 10px;
+}
+
+/* Tabla */
+table th,
+        td {
+            border: 2px solid black;
+            padding: 5px;
+            font-size: 30px;
+        }
+        
+        th {
+            color: white;
+            background-color: var(--color--texto);
+        }
+        tr {
+            background-color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+#table {
+    margin: 0px auto;
+    width: 95%;
+}
+/*Botones*/
+.delete {
+    text-align: center;
+}
+.modify {
+    text-align: center;
+     
+}
+
+.edit{
+    /* border-radius: 15px;
+    background-color: var(--color--texto);
+    color: white;
+    text-decoration: none;
+    padding: 4px 20px 4px 20px;
+    transition: 0.5s; */
+    width: 50px;
+    height: 50px;
+}
+ .edit:hover{
+
+    width: 45px;
+    height: 45px;
+}
+.delete .bdelete img{
+    /* border-radius: 15px;
+    background-color: var(--color--texto);
+    text-decoration: none;
+    color: white;
+    padding: 4px 20px 4px 20px;
+    transition: 0.5s; */
+    width: 50px;
+    height: 50px;
+}
+.delete .bdelete img:hover {
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+}
+/* cierre botones */
+/* agregar producto */
+.Addlist {
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 100px;
+    padding: 5px 30px 5px 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--color--texto);
+    transition: 0.5s;
+}
+.Addlist:hover {
+    color: var(--color--texto);
+    background-color: var(--main--color);
+}
+
+.form-select{
+    width: 50%;
+    margin: 0 auto;
+    height: 45px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.fn{
+    height: 50px;
+}
+
+@media (max-width: 768px)
+{
+    .Addlist{
+        margin-right: 41px;
+    }
+  
+}
+
+@media (max-width: 670px)
+{ 
+    .Addlist{
+        margin-right: 30%;
+    }
+}
+
+@media (max-width: 500px)
+{ 
+    .Addlist{
+        margin-right: 20%;
+    }
+}
+@media (max-width: 420px)
+{ 
+    .Addlist{
+        margin-right: 10%;
+    }
+}
+

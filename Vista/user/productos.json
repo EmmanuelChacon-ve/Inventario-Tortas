@@ -1,0 +1,60 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "Torta de auyama",
+            "price": 20,
+            "image": "./img/tortaAuyama.jpg",
+            "description": "Una torta de auyoma repleta de nuestro amor, para  "
+        },
+        {
+                "id": 2,
+                "title": "Torta de cafe",
+                "price": 30,
+                "image": "./img/tortaCafe.jpg",
+                "description": "Torta con nuestro aroma a cafe venezolano"
+            },
+            {
+                "id": 3,
+                "title": "Torta de chocolate",
+                "price": 25,
+                "image": "./img/tortaChocolate.jpg",
+                "description": "Torta de chocolate adornada de chantilli"
+            },
+            {
+                "id": 4,
+                "title": "Torta de crema",
+                "price": 35,
+                "image": "./img/tortaCrema.jpg",
+                "description": "Torta de crema Con fresas"
+            },
+            {
+                "id": 5,
+                "title": "Torta tres leches",
+                "price": 50,
+                "image": "./img/tortaTresLeches.jpg",
+                "description": "Torta tres leches con chantilli y fresas"
+            },
+            {
+                "id": 6,
+                "title": "Torta de zanahoria",
+                "price": 25,
+                "image": "./img/tortaZanahoria.jpg",
+                "description": "Torta de zanahoria con un dulzor inigualable"
+            },
+            {
+                "id": 7,
+                "title": "Torta de fresas con cereza",
+                "price": 40,
+                "image": "./img/torta3.png",
+                "description": "torta de chantilli con cerezas y  fresas"
+            },
+            {
+                "id": 8,
+                "title": "Torta de blueberry",
+                "price": 35,
+                "image": "./img/pasteles-a-domicilio-1.jpg",
+                "description": "Torta de chocolate con mora azul"
+            }
+    ]
+}

@@ -1,0 +1,93 @@
+:root{
+    --main--color: #98269a;
+    --color--texto: #4f1450;
+}
+
+/* editar tabla */
+
+.form-group label{
+    font-size: 40px;
+    margin-left: 27%;
+    color: black;
+}
+.form-control{
+    margin:0 auto;
+}
+[type=text],[type=number]{
+    font-size: 30px;
+    font-family: "Mitr", sans-serif;
+    border-radius: 15px;
+    border: transparent;
+    padding: 3px;
+    color: black;
+    width: 50%;
+}
+.return{
+    border-radius: 15px;
+    background-color: var(--color--texto);
+    color: white;
+    text-decoration: none;
+    /* padding: 4px 40px 4px 40px; */
+    margin-left: 400px;
+    font-size: 20px;
+    transition: 0.5s;
+
+    
+}
+.return:hover{
+    background-color: var(--main--color);
+    color: var(--color--texto);
+}
+
+.modify{
+    border-radius: 15px;
+    border: transparent;
+    color: white;
+    /* padding: 4px 40px 4px 40px; */
+    width: 15%;
+    height: 40px;
+    margin-right: 25%;
+    font-size: 20px;
+    border-collapse: collapse;
+    background-color: var(--color--texto);
+    font-family: "Mitr", sans-serif;
+    transition: 0.5s;
+    
+}
+.modify:hover{
+    color: var(--color--texto);
+    background-color: var(--main--color);
+}
+#es{
+    border-radius: 15px;
+    border: transparent;
+    text-transform: none;
+    background-color: #4f1450;
+    border: #d52ed7;
+    margin-bottom: 40px;
+    margin-left: 25%;
+    width: 100px;
+    height: 40px;
+}
+#es b{
+    font-size: 20px;
+    
+}
+
+@media (max-width: 768px) {
+    
+    .modify{
+        float: right;
+        margin-right: 25%;
+        font-size: 15px;
+        width: 80px;
+        height: 15%;
+    }
+    #es{
+        
+        height: 45px;
+        font-size: 23px;
+    }
+    
+   
+}
